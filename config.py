@@ -1,3 +1,4 @@
+
 from operator import add
 import os
 import logging
@@ -72,7 +73,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/tutorialimks/6")
 
 #Payment to remove the token system
 #put TRUE if you want this feature.
-USE_SHORTLINK = True if (os.environ.get('USE_SHORTLINK', "False")).capitalize == "True" else False 
+USE_PAYMENT = True if (os.environ.get('USE_PAYMENT', "False")).capitalize == "True" else False 
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " ")
 #UPI QR CODE IMAGE
